@@ -24,7 +24,8 @@ export default async function HomePage() {
     },
   });
 
-  const baseUrl = process.env.NEXT_PUBLIC_SERVER_URL || '';
+  
+  const baseUrl = process.env.NEXT_PUBLIC_SERVER_URL;
 
   return (
     <div className="home">
