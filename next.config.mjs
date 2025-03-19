@@ -5,7 +5,7 @@ const nextConfig = {
 
   images: {
     domains: [
-      'feed.payload.markusevanger.no',
+      'payload.feed.markusevanger.no',
       'localhost'
     ],
   },
